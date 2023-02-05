@@ -1,0 +1,148 @@
+html, body{
+
+    margin : 0;
+    padding :0;
+    height :100%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#overview{
+    width: 50vw;
+    align-items: center;
+    margin: auto;
+}
+nav{
+    background-color: #0e7490;
+    border-bottom-left-radius: 1vw;
+    border-bottom-right-radius: 1vw;
+    color:aliceblue;
+    margin:0 5%;
+}
+.nav-logo{
+padding-top: 1%;
+padding-left: 1%;
+font-size:larger;
+font-weight:bold;
+}
+
+nav ul{
+    list-style:none;
+    text-align: right;
+    color: black;
+}
+nav li{
+    display: inline-block;
+    text-align: left;
+    padding: 1vw;
+}
+.part-block{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.shaded{
+background-color: #94a3b8;
+margin:0 15%;
+border-radius: 1vw;
+padding: 2vw;
+color: aliceblue;
+overflow: hidden;
+
+}
+.unshaded{
+    margin: 0 15%;
+    border-radius: 1vw;
+    padding:2vw;
+    overflow: hidden;
+}
+footer{
+    background-color: #0e7490;
+    padding-bottom: 2vw;
+    border-top-left-radius:1vw;
+    border-top-right-radius:1vw;
+    color: aliceblue;
+    margin:0 5%;
+
+}
+.box1{
+    display: flex;
+    margin: 2vw 7%;
+
+}
+
+#img-self{
+height: 14vw;
+display: inline-block;
+width: 27vw;
+border-radius : 50%;
+padding : 20px;
+background-repeat : no-repeat;
+background-position : center center;
+background-size : cover;
+
+}
+button{
+    padding: 7px;
+    border-radius: 1vw;
+    border: 1px solid #0e7490;
+    color: black;
+}
+button:hover{
+    background-color: blue;
+    color:white;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+a:visited{
+color: white;
+}
+.logo-one{
+    width: 100px;
+    height: auto;
+}
+.shaded-btn{
+ background-color: #0e7490;
+ border: 1px solid aliceblue;  
+ color: aliceblue; 
+}
+.unshaded-btn{
+    background-color: #5eead4;
+    border: none;
+   
+   }
+   @media(max-width: 650px) {
+    .box1{
+        flex-direction:column;
+    }
+    #img-self{
+        height: auto;
+        display: inline-block;
+        width: 150px;
+        border-radius: 50%;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        margin: auto;
+    }
+    .intro{
+        text-align: center;
+    }
+   }
+   ul{
+
+list-style: none;
+text-align: center;
+padding: 10px;
+
+}
+   li{
+    display: inline;
+    padding: 10px;
+
+   }
+/* .intro{
+    padding: 20px;
+} */
